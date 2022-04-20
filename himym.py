@@ -17,5 +17,4 @@ sns.lmplot(x="episode_num_overall", y="us_viewers", hue="season", data=himym_fin
 plt.xlabel("Episode")
 plt.ylabel("Number of viewers")
 plt.title("Viewers through different episodes")
-plt.ticklabel_format(style='plain', axis='y')
 plt.show()
